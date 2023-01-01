@@ -1,7 +1,18 @@
 body {
     background-color: rgb(138, 151, 105);
+    display: table-cell;
+    vertical-align: middle;
 }
 
-.player-score, .computer-score{
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+.player-score, .computer-score, .rounds{
     display: inline-block;
 }
